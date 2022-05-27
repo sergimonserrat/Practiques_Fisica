@@ -1,4 +1,7 @@
-c     Aquest programa fa coses de nombres aleatoris
+c     This program generates random numbers following
+c     a given distribution (gaussian) with the corresponding
+c     histogram. Then this is used to model the diffusion
+c     of molecules in a medium.
       program gaussianes
       implicit none
       double precision xgaus(1:110000),xhis(1:100),vhis(1:100)
