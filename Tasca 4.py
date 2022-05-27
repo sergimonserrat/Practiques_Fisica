@@ -9,6 +9,12 @@ import matplotlib.pyplot as plt
 import scipy.integrate as spi
 import scipy.special as special
 
+'''
+This program uses scipy to solve differential equations for pendulums, the Schrödinger equation, coupled harmonic oscillators and planetary orbits. Then plots
+the solutions using matplotlib.
+Detailed commentary is in catalan.
+'''
+
 # Pèndols
 
 # Paràmetres
