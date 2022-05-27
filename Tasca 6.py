@@ -8,6 +8,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import imageio
 
+'''
+This program computes the Mandelbrot set and generates a gif showing the convergence in the complex plane. Then a Julia set is also computed and represented
+graphically.
+'''
+
 # Mandelbrot
 
 # Dimensions
