@@ -1,4 +1,5 @@
-c     Aquest programa fa calor
+c     This program uses the Gauss-Seidel method to solve
+c     the Poisson equation for heat conduction.
       program poisson
       implicit none
       double precision h,T_nova(0:67,0:91),Lx,Ly,eps,T_new(0:67,0:91)
