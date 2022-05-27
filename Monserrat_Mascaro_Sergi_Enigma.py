@@ -7,6 +7,11 @@ Created on Wed May 11 12:28:40 2022
 import numpy as np
 import matplotlib.pyplot as plt
 
+'''
+This code was presented as part of a test in a hiring process. The exercise was to solve an enigma where each letter from a message had an associated
+hexadecimal key. Then another file contained the hexadecimal keys associated to a number. By ordering the numbers, the hidden message was obtained.
+'''
+
 #%% Functions
 
 def hextodec(string):
