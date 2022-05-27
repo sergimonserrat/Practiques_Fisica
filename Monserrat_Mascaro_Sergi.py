@@ -9,7 +9,14 @@ import matplotlib.pyplot as plt
 import scipy.optimize as opt
 import scipy.integrate as integrate
 
-#Obrir el fitxer
+'''
+This code was presented as the answer for an exam during my bachelor's degree. It consisted of a .txt file containing spectral data from
+the cosmic microwave background (CMB). This program attempts to calculate the CMB temperature from the spectrum using different methods.
+First, a guessing method is used that sweeps an interval of possible answers and checks which one minimises the mean square error.
+Second, a curve fitting using the black body radiation equation.
+Finally, the Planck function is integrated and checked against the expected result (the Stefan-Boltzmann law)
+'''
+# Obrir el fitxer
 
 xf = []
 yf = []
