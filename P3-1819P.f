@@ -1,4 +1,7 @@
-c     Aquest programa calcula el periode del Big Ben
+c     This program computes the period of a pendulum.
+c     It uses Simpson's method and the trapezium method
+c     to compute the integral of a given function
+c     that solves for the period.
       program Bigben
       implicit none
       double precision C,w0,g,L,phi0,PI,phi,f,trapezis,simpson,h
