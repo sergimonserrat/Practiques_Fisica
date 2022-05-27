@@ -1,4 +1,7 @@
-c     Aquest programa fa pendols
+c     This program uses Euler methods to solve
+c     the differential equation for a pendulum.
+c     Then it computes the potential and kinetic
+c     energy.
       program pendol
       implicit none
       double precision g,l,Tn,PI,phi,phi2,m,h,velphi,t,p
