@@ -7,6 +7,12 @@ Created on Fri Jan 29 01:49:08 2021
 import numpy as np
 import matplotlib.pyplot as plt
 
+'''
+This program simulates a mirror composed by many layers of dielectric materials (TiO2, BK7, MgF2). Then the transmitance and reflectance are computed
+and plotted as a function of the incident light wavelength. As a complementary exercise, the properties of a mirror with the layers arranged in
+reverse order are also studied.
+'''
+
 # Funcions n
 
 def nTiO2(landa):
