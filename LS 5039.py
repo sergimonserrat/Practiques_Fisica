@@ -10,6 +10,16 @@ import matplotlib.ticker as mticker
 import scipy.optimize as opt
 import scipy.stats as stats
 
+'''
+Aquest codi va ser d'ús personal i pot no estar adequadament comentat. Correspon a un codi emprat per al meu TFG on, donades una sèrie de dades,
+s'efectua l'anàlisi de diversos models astrofísics per determinar quin és el més plausible. Aquest programa es va utilitzar diverses vegades editant
+manualment el codi per extreure anàlisis de diversos conjunts de dades així com era convenient durant el procés d'elaboració del TFG. Això significa
+que executar aquest programa no donarà el resultat per a totes les sèries de dades sinó només per a la sèrie seleccionada en el codi.
+Degut a la naturalesa de les dades, hi ha paràmetres de l'ajust molt difícils de determinar i poden provocar que l'execució del codi s'allargui més
+de l'esperat. Tot i així, el codi es deixava d'executar automàticament passar un cert temps (curt, màxim uns pocs minuts) degut al propi funcionament
+de scipy.optimize.
+'''
+
 # Dades
 
 Dies = [50856.2, 50883.1, 50913.0, 50946.0, 52540.96, 52545.07, 52546.96,
