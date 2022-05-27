@@ -1,4 +1,7 @@
-c     Programa de montecarlos
+c     This program uses montecarlo techniques
+c     to generate random numbers according to
+c     a probability distribution using rejection
+c     methods.
       program montecarlo
       implicit none
       double precision sumaup,sumadown,ran2,cru(1:10000),nup,x
