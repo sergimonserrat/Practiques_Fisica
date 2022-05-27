@@ -8,6 +8,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scipy.integrate as integrate
 import scipy.special as special
+<
+'''
+Codi corresponent a un examen. Es demanava graficar una funció de Bessel a partir de la comanda `special.j0()` que ve integrada dins de scipy
+i comparar-la amb la resolució numèrica obtinguda de la pròpia definició de la funció mitjançant una integral.
+'''
 
 # Graficació
 
