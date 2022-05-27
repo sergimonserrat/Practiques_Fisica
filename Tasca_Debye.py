@@ -9,6 +9,11 @@ import matplotlib.pyplot as plt
 import scipy.optimize as optimize
 import scipy.stats as stats
 
+'''
+This program plots the permittivity of a material as a function of the frequency and temperature. Then the zeros of the function for different temperatures
+are found and plotted to show a linear behaviour.
+'''
+
 # Paràmetres
 
 a1 = 87.9
