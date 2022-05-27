@@ -8,6 +8,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 
+'''
+This program attempts to use montecarlo techniques to calculate pi.
+'''
+
 pi = 0
 k = 0
 error = np.array([])
