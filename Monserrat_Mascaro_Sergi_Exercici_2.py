@@ -10,6 +10,10 @@ import string
 import re
 from unidecode import unidecode
 
+'''
+This program strips a text down to its constituent words and characters and then computes its Shannon entropy.
+'''
+
 # Empty list for every word as they appear
 x = []
 # Empty list for all characters
