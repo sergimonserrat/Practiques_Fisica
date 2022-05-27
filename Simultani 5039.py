@@ -9,6 +9,10 @@ import matplotlib.pyplot as plt
 import scipy.optimize as opt
 import scipy.stats as stats
 
+'''
+Second piece of code used for my end of degree project (TFG). More information on LS 5039.py in this repository.
+'''
+
 # Dades
 
 freqs = np.array([0.235, 0.61, 2.3, 4.8])
