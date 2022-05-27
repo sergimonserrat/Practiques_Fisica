@@ -1,4 +1,6 @@
-c
+c This code executes a Metropolis algorithm -Montecarlo method- 
+c to simulate the Ising Model of a paramagnetic material and
+c extract its main properties (magnetization, susceptibility...)
        program matriuspins
        implicit none
        integer L,SEED,i,j,IMC,MCTOT,N,IPAS,k
