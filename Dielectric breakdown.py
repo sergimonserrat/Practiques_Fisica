@@ -7,6 +7,11 @@ Created on Sun Feb  6 17:54:41 2022
 import numpy as np
 import matplotlib.pyplot as plt
 
+'''
+This program computes and generates Lichtenberg patterns solving the Laplace equation with Dirichlet boundary conditions. This is a model for dielectric breakdown.
+This code is not optimised, therefore it will take between 30 min and >1 hour to execute (on an intel i5 processor) depending on the value chosen for eta.
+'''
+
 mida = np.linspace(0, 2, 101)
 w = 1.9
 eta = 3
