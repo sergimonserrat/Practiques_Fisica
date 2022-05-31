@@ -1,5 +1,5 @@
-c%%%%%Aquest programa implementa el metode de Halley per trobar
-c%%%%%zeros de funcions continues.
+c%%%%%This program implements the Halley method to
+c%%%%%find zeros of continuous functions
 
       program halley
       implicit none
